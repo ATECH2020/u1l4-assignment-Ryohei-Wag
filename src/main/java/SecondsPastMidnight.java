@@ -7,7 +7,7 @@ class SecondsPastMidnight {
         Scanner scanner = new Scanner(System.in);
 
         //Reads int from user
-        System.out.print("Enter minutes: ");
+        //System.out.print("Enter seconds: ");
         int number = scanner.nextInt();
 
         //Your code goes here
