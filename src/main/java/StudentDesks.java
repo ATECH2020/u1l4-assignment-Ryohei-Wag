@@ -19,8 +19,7 @@ class StudentDesks {
         {
           totalDesk++;
         }
-        System.out.println();
-        System.out.println(totalDesk);
+        System.out.print(totalDesk);
 
         // closing the scanner object
         scanner.close();
