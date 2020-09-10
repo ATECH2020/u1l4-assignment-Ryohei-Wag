@@ -9,8 +9,7 @@ class AnalogClock {
         //Reads ints from user
         //System.out.print("Enter angle: ");
         int angle = scanner.nextInt();
-        int hour = angle / 30;
-        int min = (angle % 60) * 2;
+        int min = (angle % 30) * 2;
         //System.out.println(hour + ":" + min);
         int minAngle = min * 6;
         System.out.print(minAngle);
