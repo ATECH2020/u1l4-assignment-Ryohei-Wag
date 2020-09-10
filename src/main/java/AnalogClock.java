@@ -13,7 +13,7 @@ class AnalogClock {
         int min = (angle % 30) * 2;
         //System.out.println(hour + ":" + min);
         int minAngle = min * 6;
-        System.out.print(minAngle);
+        System.out.println(minAngle);
         //System.out.println("(" + min + ")");
         // closing the scanner object
         scanner.close();
