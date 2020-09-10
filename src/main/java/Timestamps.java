@@ -13,14 +13,9 @@ class Timestamps {
         int hours2 = scanner.nextInt();
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
-        int calcSec = calc(hours2, minutes2, seconds2) -
-                    calc(hours1, minutes1, seconds1);
+        int calcSec = (hours2*3600 + minutes2*60 + seconds2) - calc(hours1*3600 + minutes1*60, seconds1);
         System.out.println(calcSec);
         // closing the scanner object
         scanner.close();
-    }
-    public static int calc(int h, int m, int s)
-    {
-        return h * 3600 + m * 60 + s;
     }
 }
