@@ -14,11 +14,14 @@ class StudentDesks {
         //System.out.print("# of class C: ");
         int classC = scanner.nextInt();
         int total = classA + classB + classC;
-        int totalDesk = total / 2;
-        if(total % 2 != 0)
+        int totalDesk = total / 2 + 1;
+        /*
+          if(total % 2 != 0)
         {
           totalDesk++;
         }
+        */
+        
         System.out.print(totalDesk);
 
         // closing the scanner object
